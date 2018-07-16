@@ -23,3 +23,4 @@ alias forecast='~/python/termWeather/term_forecast/./term_weather.py'
 alias trash='rmtrash'
 alias del="rmtrash"
 alias emoji="http https://api.kevinmidboe.com/api/v1/emoji -b"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
