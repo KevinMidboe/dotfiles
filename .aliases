@@ -24,3 +24,4 @@ alias trash='rmtrash'
 alias del="rmtrash"
 alias emoji="http https://api.kevinmidboe.com/api/v1/emoji -b"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias weather="curl 'https://wttr.in/~Oslo?0'"
