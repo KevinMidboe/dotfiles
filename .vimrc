@@ -16,6 +16,8 @@ Plugin 'git@github.com:Valloric/YouCompleteMe.git'
 Plugin 'git@github.com:moll/vim-node.git'
 " Vue syntax highlighting - https://github.com/posva/vim-vue
 Plugin 'posva/vim-vue'
+" Wakatime plugin
+Plugin 'wakatime/vim-wakatime'
 
 " autocmd FileType markdown let b:dispatch = 'octodown --live-reload %'
 
