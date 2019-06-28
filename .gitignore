@@ -2,9 +2,10 @@
 */
 !.gitignore
 !.bashrc
-!.vimrc
-!.hyper.js
-!.zshrc
-!.aliases
 !.bash_profile
+!.vimrc
+!.zshrc
+!.zsh-themes
+!.aliases
 !.ssh
+!.hyper.js
