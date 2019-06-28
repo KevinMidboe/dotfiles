@@ -5,5 +5,7 @@
 !.zshrc
 !/.zsh-themes
 !.aliases
-!.ssh
+!/.ssh
+/.ssh/*
+!/.ssh/*config
 !.hyper.js
