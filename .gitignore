@@ -1,0 +1,10 @@
+*
+*/
+!.gitignore
+!.bashrc
+!.vimrc
+!.hyper.js
+!.zshrc
+!.aliases
+!.bash_profile
+!.ssh
