@@ -3,6 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/kevinmidboe/.oh-my-zsh
+export PATH=~/.composer/vendor/bin:$PATH
+export PATH=./vendor/bin:$PATH
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
