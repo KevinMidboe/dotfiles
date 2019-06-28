@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'git@github.com:ajh17/VimCompletesMe.git'
 Plugin 'git@github.com:Valloric/YouCompleteMe.git'
 Plugin 'git@github.com:moll/vim-node.git'
+" Vue syntax highlighting - https://github.com/posva/vim-vue
+Plugin 'posva/vim-vue'
 
 " autocmd FileType markdown let b:dispatch = 'octodown --live-reload %'
 
@@ -35,11 +37,12 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-" Set tab to 4 spaces
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+" Set tab to 2 spaces
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 " Set line number
 set number
+set splitbelow
