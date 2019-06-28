@@ -11,6 +11,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'git@github.com:ajh17/VimCompletesMe.git'
+Plugin 'git@github.com:Valloric/YouCompleteMe.git'
+Plugin 'git@github.com:moll/vim-node.git'
 
 " autocmd FileType markdown let b:dispatch = 'octodown --live-reload %'
 
