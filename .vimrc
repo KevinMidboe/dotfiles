@@ -45,4 +45,4 @@ set expandtab
 
 " Set line number
 set number
-set splitbelow
+
