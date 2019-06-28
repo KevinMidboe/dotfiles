@@ -1,11 +1,9 @@
-*
-*/
-!.gitignore
+/*
 !.bashrc
 !.bash_profile
 !.vimrc
 !.zshrc
-!.zsh-themes
+!/.zsh-themes
 !.aliases
 !.ssh
 !.hyper.js
