@@ -23,5 +23,5 @@ alias del="rmtrash"
 alias emoji="http https://api.kevinmidboe.com/api/v1/emoji -b"
 alias gimme="grep -rnw ''"
 alias config='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
-alias l='tree -L 1'
-alias l2='tree -L 2'
+alias l='tree -C -L 1'
+alias l2='tree -C -L 2'
