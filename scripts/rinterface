@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Loop through each hardware port and device pair
+networksetup -listallhardwareports | awk '
+/^Hardware Port:/ {interface_name=$3; for(i=4;i<=NF;i++){interface_name=interface_name" "$i}} 
+/^Device:/ {print interface_name, $2}' | \
+while read interface_name interface; do
+    # Get the IP address for the current interface
+    ip=$(ipconfig getifaddr "$interface" 2>/dev/null)
+    
+    if [ -n "$ip" ]; then
+        echo "restarting interface $interface ($interface_name)"
+        
+        # Disable and enable network service by hardware port name
+        networksetup -setnetworkserviceenabled "$interface_name" off
+        networksetup -setnetworkserviceenabled "$interface_name" on
+    fi
+done
