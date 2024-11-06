@@ -11,4 +11,4 @@ packages=(
     prettier
 )
 
-yarn global install "${packages[@]}"
+yarn global add "${packages[@]}"
