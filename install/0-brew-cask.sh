@@ -14,5 +14,5 @@ apps=(
 if [ "$(uname)" == "Darwin" ]; then
   brew install "${apps[@]}" --cask
 else
-  echo "skipping cask for non-macos platform"
+  echo "   ▶ skipping cask for non-macos platform"
 fi
