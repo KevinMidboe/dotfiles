@@ -1,5 +1,4 @@
 # Install cask packages
-
 apps=(
   1password
   1password-cli
@@ -11,4 +10,7 @@ apps=(
   vlc
 )
 
-brew install "${apps[@]}" --cask
+# cask only supported on macos
+if [ "$(uname)" == "Darwin" ]; then
+  brew install "${apps[@]}" --cask
+fi
