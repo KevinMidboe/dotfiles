@@ -1,7 +1,7 @@
-# kevinmidboe dotfiles
-
-Install using curl
+<div align="center">
+<h1 style="text-align:center">Install dotfiles</h1>
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/kevinmidboe/dotfiles/main/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/KevinMidboe/dotfiles/refs/heads/main/install.sh")
 ```
+</div>
