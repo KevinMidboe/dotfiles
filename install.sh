@@ -1,10 +1,10 @@
 #!/bin/sh
-export REPO="https://github.com/kevinmidboe/dotfiles"
+export REPO="git@github.com:KevinMidboe/dotfiles"
 export DOT_CONFIG_FOLDER="$HOME/.config"
 
 # clone dotfiles repo
 echo "Cloning github repo"
-git clone --depth=1 $REPO $DOT_CONFIG_FOLDER
+git clone --depth=1 -b main $REPO $DOT_CONFIG_FOLDER
 
 cd $DOT_CONFIG_FOLDER
 
